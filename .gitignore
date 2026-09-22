@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets and raw measurement data
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+B6031600_event_all/
+data/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+checkpoints/
+
+# Training / evaluation outputs and figures
+*.png
+*.jpg
+*.jpeg
+*.svg
+results/
+logs/
+vi_bilstm_test_results.csv
+vi_bilstm_example_*.png
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
